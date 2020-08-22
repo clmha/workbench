@@ -5,6 +5,7 @@ docs = $(addprefix build/, \
 	)
 drawings = $(addprefix build/, \
 	WB1-ASY-001.pdf \
+	WB1-MFG-002.pdf \
 	)
 
 sheets = $(sort $(patsubst drawing/%,sheet/%,$(patsubst %.dxf,%.pdf,$(wildcard drawing/*.dxf))))
@@ -42,6 +43,9 @@ sheet/%.pdf: drawing/%.dxf
 all: directories $(docs) $(drawings)
 
 build/WB1-ASY-001.pdf: $(filter sheet/WB1-ASY-001%,$(sheets))
+	pdftk $^ cat output $@
+
+build/WB1-MFG-002.pdf: $(filter sheet/WB1-MFG-002%,$(sheets))
 	pdftk $^ cat output $@
 
 .PHONY: clean directories
