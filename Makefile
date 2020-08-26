@@ -2,6 +2,7 @@
 
 docs = $(addprefix build/, \
 	WB1-MFG-001.pdf \
+	WB1-REQ-001.pdf \
 	)
 drawings = $(addprefix build/, \
 	WB1-ASY-001.pdf \
