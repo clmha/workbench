@@ -14,15 +14,11 @@ all: directories $(docs) $(drawings)
 
 clean:
 	del $(odir)\*.pdf
-	del sheet\*.pdf
 
-directories: $(odir) sheet
+directories: $(odir)
 
 $(odir):
 	mkdir $(odir)
-
-sheet:
-	mkdir sheet
 
 # *
 # * Rules of Office Documents
