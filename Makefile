@@ -6,7 +6,8 @@ docs = \
 	$(odir)\WB1-REQ-001.pdf
 drawings = \
 	$(odir)\WB1-ASY-001.pdf \
-	$(odir)\WB1-MFG-002.pdf
+	$(odir)\WB1-MFG-002.pdf \
+	$(odir)\WB1-PRT-004.pdf
 
 all: directories $(docs) $(drawings)
 
