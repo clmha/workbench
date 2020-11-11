@@ -1,9 +1,9 @@
-# Établi de menuiserie
-Ce projet est un établi de menuiserie (code de projet WB1) pour la réalisation de meubles de dimensions moyennes comme une table de chevet, un petit bureau, mais pas une table de cuisine.
+# Établi de menuisier
+Ce projet est un établi de menuisier (code de projet WB1) pour la réalisation de meubles de dimensions moyennes comme une table de chevet, un petit bureau, mais pas une table de cuisine.
 
 Il est construit avec des matériaux aux dimensions courantes en Amérique du Nord et des méthodes de fixation simples.
 
-D'un côté de l'établi, sur la face avant, le plan de travail affleure les pattes de l'établi afin de pouvoir fixer des panneaux à la verticale et utiliser un étau de menuiserie. De l'autre côté, il dépasse de 3" afin de permettre l'utilisation de serre-joints.
+D'un côté de l'établi, sur la face avant, le plan de travail affleure les pattes de l'établi afin de pouvoir fixer des panneaux à la verticale et utiliser un étau de menuisier. De l'autre côté, il dépasse de 3" afin de permettre l'utilisation de serre-joints.
 ![Résultat final vu de face](image/workbench_front.jpg) ![Résultat final vu de dos](image/workbench_back.jpg)
 
 # Matériaux
